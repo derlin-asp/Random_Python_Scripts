@@ -1,7 +1,7 @@
 # Random_Python_Scripts
 
 
-<b>word_scramble.py</b>
+<h2>word_scramble.py</h2>
 
 
 -Used to cheat in an online word scramble game.
