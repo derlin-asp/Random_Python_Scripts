@@ -4,6 +4,13 @@ from itertools import combinations
 from itertools import permutations
 '''
 
+Takes in a string as input and returns all valid words possible to make with all characters of said string
+
+dictionary used is Enchants Module English Us 
+
+
+OLD CODE -- before i started using itertools library
+
 def primer(string):
 	list_of_new_strings = []
 	list_of_new_strings.append(string)
