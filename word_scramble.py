@@ -23,8 +23,7 @@ def primer(string):
 	
 '''
 
-
-x = "FARNGLI"
+x = "RCONVET"
 perms = [''.join(l) for i in range(len(x)) for l in combinations(x, i+1)]
 #perms = [''.join(p) for p in combinations('as')]
 
@@ -42,5 +41,6 @@ for word in perms3:
 		if d.check(word2):# or g.check(word2):
 			answers.append(word2)
 #print(d.check("ohm"))
+#print(perms3)
 print answers
 print len(answers	)
