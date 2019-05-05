@@ -17,3 +17,11 @@
 
 
 
+
+<h2>anagram.py</h2>
+
+
+Takes in a list of strings and returns the anagrams next to each other in another list
+
+
+
