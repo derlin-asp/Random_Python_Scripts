@@ -23,5 +23,9 @@
 
 Takes in a list of strings and returns the anagrams next to each other in another list
 
+<h2>longest.py</h1>
+
+returns the longest continuous letter substring
+
 
 
