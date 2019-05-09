@@ -28,4 +28,11 @@ Takes in a list of strings and returns the anagrams next to each other in anothe
 returns the longest continuous letter substring
 
 
+<h2>binary_gap.py</h2>
+
+from codibility: returns the longest set of zeros encased by ones from the binary version of an int
+
+Right now its a mess but working. theres probably a version with built in functions. 
+
+
 
