@@ -3,24 +3,8 @@ import enchant
 from itertools import combinations
 from itertools import permutations
 '''
-
 Takes in a string as input and returns all valid words possible to make with all characters of said string
-
 dictionary used is Enchants Module English Us 
-
-
-OLD CODE -- before i started using itertools library
-
-def primer(string):
-	list_of_new_strings = []
-	list_of_new_strings.append(string)
-	for c in range( len(string) ):
-		if c == 0:
-			continue
-		temp = (string[c] + string[c-1::-1 ] + string[c+1::1] )
-		list_of_new_strings.append(temp)
-	return list_of_new_strings
-	
 '''
 
 x = "RCONVET"
@@ -42,5 +26,5 @@ for word in perms3:
 			answers.append(word2)
 #print(d.check("ohm"))
 #print(perms3)
-print answers
-print len(answers	)
+print (answers)
+print (len(answers	))

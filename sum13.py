@@ -1,10 +1,8 @@
+'''
+Sums an array - minus the elements that are equal 13 and the subsequent element
+'''
 
-
-
-#sums all numbers in array except if its 13 and the number after 13
-
-
-#while loop was better for this as incremnting a for loop in python is weirder than c++
+#orignial
 def sum13(array):
 
     sum = 0
@@ -21,3 +19,4 @@ def sum13(array):
 
 
 print (sum13([1,2,1,13,5,11]))
+

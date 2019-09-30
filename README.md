@@ -35,4 +35,7 @@ from codibility: returns the longest set of zeros encased by ones from the binar
 Right now its a mess but working. theres probably a version with built in functions. 
 
 
+<h2>sum13.py</h2>
+
+Sums the elements in an array except for elements equaling 13 and the subsequent elements.
 
