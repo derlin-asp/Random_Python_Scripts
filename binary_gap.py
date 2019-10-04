@@ -1,3 +1,10 @@
+
+'''
+Return longest sequence of zeros in the binary representation of the input integer
+
+Mostly works
+'''
+
 def solution(N):
     # write your code in Python 3.6
     N = format(N, "b")

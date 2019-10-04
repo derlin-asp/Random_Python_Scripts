@@ -1,7 +1,6 @@
 '''
 Finds lowest missing positive number:
 
-
 N time complexity
 
 1 Space Complexity
@@ -14,13 +13,20 @@ def solution(elements):
     elements.sort()
     # Time : nlogn
     # space : Constant
+    print(elements)
 
 
-    for x in elements:
-        if x > -1:
+    count = 0;
+    for i,num in enumerate(elements):
+        if num >= 0 and num == count:
+            count += 1
+        elif num >= 0 and num != count:
+            return count
+        else:
+            print("Negative Number")
 
 
 
 
 
-print(solution( [-2,4,1,7,2,3,-11] ))
+print(solution( [0,1,2,6,9] ))

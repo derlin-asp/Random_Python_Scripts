@@ -1,4 +1,7 @@
-from collections import OrderedDict
+'''
+Groups anagrams by eachother
+
+'''
 
 
 Input = ['ram', 'act', 'arm', 'bat', 'cat', 'tab']
